@@ -8,21 +8,21 @@ import { Store } from '../store/store'
 const BasketScreen = () => {
 
 const items = Store(state => state.cart.items)
-const resturant = Store(state => state.resturantSlice)
+// const resturant = Store(state => state.resturantSlice)
 let results ;
 
-useEffect(() => {
+// useEffect(() => {
 
-const groupItems = items.reduce(() => {
+// const groupItems = items.reduce(() => {
 
-(results[items.id] = results[items.id] || []).push(items)
-return results
+// (results[items.id] = results[items.id] || []).push(items)
+// return results
 
-}, {})
+// }, {})
 
-resturant(groupItems)
+// resturant(groupItems)
 
-},[items])
+// },[items])
 
 
 // console.log(resturant)
