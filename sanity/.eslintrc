@@ -1,0 +1,9 @@
+{
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "@babel"
+  ],
+  "extends": "@sanity/eslint-config-studio"
+  
+
+}
